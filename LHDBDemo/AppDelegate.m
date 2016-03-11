@@ -14,8 +14,23 @@
 
 @implementation AppDelegate
 
+void handle(NSException* exception)
+{
+    NSLog(@"name = %@,reson = %@,userinfo = %@,stack = %@,s = %@",exception.name,exception.reason,exception.userInfo,exception.callStackReturnAddresses,exception.callStackSymbols);
+    NSString *appInfo = [NSString stringWithFormat:@"App : %@ %@(%@)\nDevice : %@\nOS Version : %@ %@\n",
+                         [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"],
+                         [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"],
+                         [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleVersion"],
+                         [UIDevice currentDevice].model,
+                         [UIDevice currentDevice].systemName,
+                         [UIDevice currentDevice].systemVersion];
+    //	    [UIDevice currentDevice].uniqueIdentifier];
+    NSLog(@"Crash!!!! %@", appInfo);
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    NSSetUncaughtExceptionHandler(&handle);
     // Override point for customization after application launch.
     return YES;
 }

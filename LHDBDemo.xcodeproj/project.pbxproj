@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		054C04521C705ECD00436A33 /* LHPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 054C04511C705ECD00436A33 /* LHPredicate.m */; };
+		05822B471C561DDC00CC0506 /* LHModelStateMent.m in Sources */ = {isa = PBXBuildFile; fileRef = 05822B461C561DDC00CC0506 /* LHModelStateMent.m */; };
+		05869D2F1C804C3600C5B48B /* 123@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05869D2E1C804C3600C5B48B /* 123@2x.png */; };
+		05869D321C805B7500C5B48B /* LHDBPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 05869D311C805B7500C5B48B /* LHDBPath.m */; };
+		05FB96241C71BFC800496A39 /* NSObject+LHDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 05FB96231C71BFC800496A39 /* NSObject+LHDB.m */; };
 		C99628381C40F63E007FBA72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C99628371C40F63E007FBA72 /* main.m */; };
 		C996283B1C40F63E007FBA72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C996283A1C40F63E007FBA72 /* AppDelegate.m */; };
 		C996283E1C40F63E007FBA72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C996283D1C40F63E007FBA72 /* ViewController.m */; };
@@ -15,6 +20,12 @@
 		C99628461C40F63E007FBA72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99628441C40F63E007FBA72 /* LaunchScreen.storyboard */; };
 		C99628511C40F63E007FBA72 /* LHDBDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C99628501C40F63E007FBA72 /* LHDBDemoTests.m */; };
 		C996285C1C40F63E007FBA72 /* LHDBDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C996285B1C40F63E007FBA72 /* LHDBDemoUITests.m */; };
+		C99628721C40F668007FBA72 /* LHDataBaseExecute.m in Sources */ = {isa = PBXBuildFile; fileRef = C996286B1C40F668007FBA72 /* LHDataBaseExecute.m */; };
+		C99628741C40F668007FBA72 /* LHDBQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C996286F1C40F668007FBA72 /* LHDBQueue.m */; };
+		C99628751C40F668007FBA72 /* NSObject+LHModelOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C99628711C40F668007FBA72 /* NSObject+LHModelOperation.m */; };
+		C99628771C40F676007FBA72 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C99628761C40F676007FBA72 /* libsqlite3.tbd */; };
+		C996287B1C40F8FA007FBA72 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = C996287A1C40F8FA007FBA72 /* Model.m */; };
+		C9B22F561C817E37004FD22A /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B22F551C817E37004FD22A /* Cat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		054C04501C705ECD00436A33 /* LHPredicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHPredicate.h; sourceTree = "<group>"; };
+		054C04511C705ECD00436A33 /* LHPredicate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHPredicate.m; sourceTree = "<group>"; };
+		05822B451C561DDC00CC0506 /* LHModelStateMent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHModelStateMent.h; sourceTree = "<group>"; };
+		05822B461C561DDC00CC0506 /* LHModelStateMent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHModelStateMent.m; sourceTree = "<group>"; };
+		05869D2E1C804C3600C5B48B /* 123@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "123@2x.png"; sourceTree = "<group>"; };
+		05869D301C805B7500C5B48B /* LHDBPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHDBPath.h; sourceTree = "<group>"; };
+		05869D311C805B7500C5B48B /* LHDBPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHDBPath.m; sourceTree = "<group>"; };
+		058801171C7F0BCD00E401CC /* LHDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHDB.h; sourceTree = "<group>"; };
+		05FB96221C71BFC800496A39 /* NSObject+LHDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LHDB.h"; sourceTree = "<group>"; };
+		05FB96231C71BFC800496A39 /* NSObject+LHDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LHDB.m"; sourceTree = "<group>"; };
 		C99628331C40F63E007FBA72 /* LHDBDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LHDBDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99628371C40F63E007FBA72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C99628391C40F63E007FBA72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +72,17 @@
 		C99628571C40F63E007FBA72 /* LHDBDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LHDBDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C996285B1C40F63E007FBA72 /* LHDBDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHDBDemoUITests.m; sourceTree = "<group>"; };
 		C996285D1C40F63E007FBA72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C996286A1C40F668007FBA72 /* LHDataBaseExecute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHDataBaseExecute.h; sourceTree = "<group>"; };
+		C996286B1C40F668007FBA72 /* LHDataBaseExecute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHDataBaseExecute.m; sourceTree = "<group>"; };
+		C996286E1C40F668007FBA72 /* LHDBQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHDBQueue.h; sourceTree = "<group>"; };
+		C996286F1C40F668007FBA72 /* LHDBQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHDBQueue.m; sourceTree = "<group>"; };
+		C99628701C40F668007FBA72 /* NSObject+LHModelOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LHModelOperation.h"; sourceTree = "<group>"; };
+		C99628711C40F668007FBA72 /* NSObject+LHModelOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LHModelOperation.m"; sourceTree = "<group>"; };
+		C99628761C40F676007FBA72 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		C99628791C40F8FA007FBA72 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		C996287A1C40F8FA007FBA72 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		C9B22F541C817E37004FD22A /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		C9B22F551C817E37004FD22A /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C99628771C40F676007FBA72 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +114,9 @@
 		C996282A1C40F63E007FBA72 = {
 			isa = PBXGroup;
 			children = (
+				05869D2E1C804C3600C5B48B /* 123@2x.png */,
+				C99628761C40F676007FBA72 /* libsqlite3.tbd */,
+				C99628691C40F668007FBA72 /* LHDB */,
 				C99628351C40F63E007FBA72 /* LHDBDemo */,
 				C996284F1C40F63E007FBA72 /* LHDBDemoTests */,
 				C996285A1C40F63E007FBA72 /* LHDBDemoUITests */,
@@ -101,6 +137,10 @@
 		C99628351C40F63E007FBA72 /* LHDBDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C99628791C40F8FA007FBA72 /* Model.h */,
+				C996287A1C40F8FA007FBA72 /* Model.m */,
+				C9B22F541C817E37004FD22A /* Cat.h */,
+				C9B22F551C817E37004FD22A /* Cat.m */,
 				C99628391C40F63E007FBA72 /* AppDelegate.h */,
 				C996283A1C40F63E007FBA72 /* AppDelegate.m */,
 				C996283C1C40F63E007FBA72 /* ViewController.h */,
@@ -138,6 +178,28 @@
 				C996285D1C40F63E007FBA72 /* Info.plist */,
 			);
 			path = LHDBDemoUITests;
+			sourceTree = "<group>";
+		};
+		C99628691C40F668007FBA72 /* LHDB */ = {
+			isa = PBXGroup;
+			children = (
+				058801171C7F0BCD00E401CC /* LHDB.h */,
+				05869D301C805B7500C5B48B /* LHDBPath.h */,
+				05869D311C805B7500C5B48B /* LHDBPath.m */,
+				05822B451C561DDC00CC0506 /* LHModelStateMent.h */,
+				05822B461C561DDC00CC0506 /* LHModelStateMent.m */,
+				C996286A1C40F668007FBA72 /* LHDataBaseExecute.h */,
+				C996286B1C40F668007FBA72 /* LHDataBaseExecute.m */,
+				054C04501C705ECD00436A33 /* LHPredicate.h */,
+				054C04511C705ECD00436A33 /* LHPredicate.m */,
+				C996286E1C40F668007FBA72 /* LHDBQueue.h */,
+				C996286F1C40F668007FBA72 /* LHDBQueue.m */,
+				C99628701C40F668007FBA72 /* NSObject+LHModelOperation.h */,
+				C99628711C40F668007FBA72 /* NSObject+LHModelOperation.m */,
+				05FB96221C71BFC800496A39 /* NSObject+LHDB.h */,
+				05FB96231C71BFC800496A39 /* NSObject+LHDB.m */,
+			);
+			path = LHDB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C99628461C40F63E007FBA72 /* LaunchScreen.storyboard in Resources */,
+				05869D2F1C804C3600C5B48B /* 123@2x.png in Resources */,
 				C99628431C40F63E007FBA72 /* Assets.xcassets in Resources */,
 				C99628411C40F63E007FBA72 /* Main.storyboard in Resources */,
 			);
@@ -270,9 +333,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05822B471C561DDC00CC0506 /* LHModelStateMent.m in Sources */,
 				C996283E1C40F63E007FBA72 /* ViewController.m in Sources */,
+				C99628741C40F668007FBA72 /* LHDBQueue.m in Sources */,
+				C9B22F561C817E37004FD22A /* Cat.m in Sources */,
 				C996283B1C40F63E007FBA72 /* AppDelegate.m in Sources */,
+				C996287B1C40F8FA007FBA72 /* Model.m in Sources */,
+				C99628721C40F668007FBA72 /* LHDataBaseExecute.m in Sources */,
+				C99628751C40F668007FBA72 /* NSObject+LHModelOperation.m in Sources */,
+				05869D321C805B7500C5B48B /* LHDBPath.m in Sources */,
+				054C04521C705ECD00436A33 /* LHPredicate.m in Sources */,
 				C99628381C40F63E007FBA72 /* main.m in Sources */,
+				05FB96241C71BFC800496A39 /* NSObject+LHDB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +570,7 @@
 				C99628621C40F63E007FBA72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C99628631C40F63E007FBA72 /* Build configuration list for PBXNativeTarget "LHDBDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +579,7 @@
 				C99628651C40F63E007FBA72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C99628661C40F63E007FBA72 /* Build configuration list for PBXNativeTarget "LHDBDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +588,7 @@
 				C99628681C40F63E007FBA72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
