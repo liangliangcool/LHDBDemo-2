@@ -111,7 +111,7 @@ NSString* deleteString(Class modelClass,LHPredicate* predicate)
    
     [deleteStr appendString:NSStringFromClass(modelClass)];
     if (predicate.predicateFormat) {
-        [deleteStr appendFormat:@" %@",predicate.predicateFormat];
+        [deleteStr appendFormat:@" WHERE %@",predicate.predicateFormat];
     }
     return deleteStr;
 }
